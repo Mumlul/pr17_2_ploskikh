@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">save/load</string>
+    <string name="hintlog">your login</string>
+    <string name="hintpas">your password</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="vibor">Выберите</string>
+    <string name="enter">Зайти</string>
+    <string-array name="фигуры">
+        <item>Круг</item>
+        <item>Квадрат</item>
+        <item>Треугольник</item>
+
+    </string-array>
+</resources>

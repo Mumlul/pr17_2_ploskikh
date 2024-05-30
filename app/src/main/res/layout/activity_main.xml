@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main"
+    android:background="#c4c0c0"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/hintlog"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/hintpas"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <!--<androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="handler"
+        android:text="@string/save"
+        android:textAllCaps="false" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="handler"
+        android:text="@string/load"
+        android:textAllCaps="false" />-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vibor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="handler"
+        android:text="@string/vibor"
+        android:textAllCaps="false" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="enter"
+        android:text="@string/enter"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sxlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sxpas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
